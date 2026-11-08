@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gestão de Carreira | IFG - Agenda de Palestras</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="top-strip">
+      <div>
+        <span class="top-strip-tag"></span>
+        <span id="header-instituicao">IFG CÂMPUS GOIÂNIA - SISTEMAS DE INFORMAÇÃO</span>
+      </div>
+      <div id="header-periodo">SEMESTRE 2026/1</div>
+    </div>
+    <div class="navbar-inner">
+      <div class="brand-lockup">
+        <div class="brand-badge">IFG</div>
+        <div>
+          <h1 class="brand-title" id="page-title">Gestão de Carreira | IFG</h1>
+          <div class="brand-sub" id="page-subtitle">CRONOGRAMA OFICIAL DE PALESTRAS</div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero-container">
+    <div class="hero-card">
+      <span class="hero-kicker">DISCIPLINA ACADÊMICA</span>
+      <h2 class="hero-title" id="hero-title">AGENDA DE PALESTRAS</h2>
+      <p class="hero-desc">
+        Encontros técnicos e palestras de liderança com profissionais e especialistas do mercado de tecnologia.
+      </p>
+      <div class="hero-badges">
+        <span class="hero-badge-item" id="hero-local">📍 Auditório Central</span>
+        <span class="hero-badge-item">🎓 Certificado Complementar</span>
+        <span class="hero-badge-item">🎟️ 100% Gratuito</span>
+      </div>
+    </div>
+  </section>
+
+  <div class="controls-wrapper">
+    <input 
+      type="text" 
+      id="search-input" 
+      class="search-input" 
+      placeholder="BUSCAR PALESTRANTE OU TÍTULO..."
+      aria-label="Buscar palestras"
+    />
+    <div class="tags-container" id="tags-container"></div>
+  </div>
+
+  <main id="grid-eventos"></main>
+
+  <footer>
+    <div class="footer-strip">
+      <span>INSTITUTO FEDERAL DE GOIÁS</span>
+      <span>BACHARELADO EM SISTEMAS DE INFORMAÇÃO</span>
+    </div>
+    <div class="footer-inner">
+      <div>© <span id="current-year"></span> IFG - Gestão de Carreira em TI</div>
+      <div>Design Neo-Brutalismo</div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

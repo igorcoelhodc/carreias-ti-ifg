@@ -1,0 +1,74 @@
+{
+  "site_metadata": {
+    "titulo_pagina": "Gestão de Carreira | IFG",
+    "favicon_url": "assets/favicon.ico",
+    "logo_url": "assets/logo-ifg-brutal.svg",
+    "hero_titulo": "AGENDA DE PALESTRAS 2026",
+    "subtitulo": "Bacharelado em Sistemas de Informação IFG Câmpus Goiânia",
+    "semestre": "SEMESTRE 2026/1",
+    "local": "Auditório Demartin Bizerra & Transmissão YouTube IFG",
+    "instituicao": "INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DE GOIÁS"
+  },
+  "palestras": [
+    {
+      "id": "01",
+      "titulo": "ENG. DE SOFTWARE NO SETOR CORPORATIVO",
+      "palestrante": {
+        "nome": "ANA SILVA",
+        "cargo": "Staff Software Engineer @ Mercado Livre",
+        "bio": "Especialista em microsserviços resilientes, arquitetura distribuída e liderança de engenharia técnica.",
+        "foto_url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=700&q=80"
+      },
+      "tags": ["TECNOLOGIA", "CARREIRA"],
+      "data": "20 NOV",
+      "dia_semana": "SEX.",
+      "horario": "19:00",
+      "local": "Auditório Central (Presencial)",
+      "descricao": "Panorama prático sobre as habilidades que diferenciam engenheiros juniores e plenos em grandes corporações de tecnologia.",
+      "links": {
+        "inscricao": "https://forms.gle/exemplo-ana-silva-2026",
+        "material": ""
+      }
+    },
+    {
+      "id": "02",
+      "titulo": "ARQUITETURAS CLOUD & MICROSSERVIÇOS RESILIENTES",
+      "palestrante": {
+        "nome": "MARCOS OLIVEIRA",
+        "cargo": "Principal Cloud Architect @ AWS Community Hero",
+        "bio": "Mais de 14 anos desenhando plataformas cloud nativas para fintechs e telecomunicações na América Latina.",
+        "foto_url": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=700&q=80"
+      },
+      "tags": ["CLOUD", "DEVOPS", "ARQUITETURA"],
+      "data": "27 NOV",
+      "dia_semana": "SEX.",
+      "horario": "19:30",
+      "local": "Auditório Central + Streaming",
+      "descricao": "Como desenhar sistemas distribuídos tolerantes a falhas no mundo real com observabilidade e baixo custo.",
+      "links": {
+        "inscricao": "https://forms.gle/exemplo-marcos-cloud-2026",
+        "material": "https://github.com/ifg-bsi/arquitetura-cloud-resiliente-2026"
+      }
+    },
+    {
+      "id": "03",
+      "titulo": "IA GENERATIVA & ENGENHARIA DE PRODUTOS REAIS",
+      "palestrante": {
+        "nome": "DRA. BEATRIZ MENDES",
+        "cargo": "Head of Artificial Intelligence @ NeuralSphere Lab",
+        "bio": "Doutora em Ciência da Computação, pesquisadora e consultora de IA para órgãos públicos.",
+        "foto_url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=700&q=80"
+      },
+      "tags": ["IA & ML", "INOVAÇÃO", "PESQUISA"],
+      "data": "04 DEZ",
+      "dia_semana": "SEX.",
+      "horario": "19:00",
+      "local": "Auditório Demartin Bizerra",
+      "descricao": "Saindo do hype: implementação real de pipelines com LLMs, agentes autônomos e fine-tuning com segurança.",
+      "links": {
+        "inscricao": "https://forms.gle/exemplo-beatriz-ia-2026",
+        "material": ""
+      }
+    }
+  ]
+}
