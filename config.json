@@ -4,69 +4,103 @@
     "favicon_url": "assets/favicon.ico",
     "logo_url": "assets/logo-ifg-brutal.svg",
     "hero_titulo": "AGENDA DE PALESTRAS 2026",
-    "subtitulo": "Bacharelado em Sistemas de Informação IFG Câmpus Goiânia",
-    "semestre": "SEMESTRE 2026/1",
-    "local": "Auditório Demartin Bizerra & Transmissão YouTube IFG",
-    "instituicao": "INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DE GOIÁS"
+    "local": "Auditório Demartin Bizerra",
+    "instituicao": "IFG"
   },
   "palestras": [
     {
       "id": "01",
-      "titulo": "ENG. DE SOFTWARE NO SETOR CORPORATIVO",
+      "titulo": "ENTRE A TECNOLOGIA E O DIREITO: ESCOLHAS E CAMINHOS DE CARREIRA NO SERVIÇO PÚBLICO",
       "palestrante": {
-        "nome": "ANA SILVA",
-        "cargo": "Staff Software Engineer @ Mercado Livre",
-        "bio": "Especialista em microsserviços resilientes, arquitetura distribuída e liderança de engenharia técnica.",
-        "foto_url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=700&q=80"
+        "nome": "FELIPE OTTONI",
+        "cargo": "Procurador do Estado",
+        "bio": "Procurador do Estado, lotado na Coordenação-Geral. Bacharel em Sistemas de Informação. Bacharel em Direito. MBA em Gestão da Tecnologia da Informação. MBA em Finanças, com ênfase em Mercado de Capitais. Especialista em Direito Público.",
+        "foto_url": "https://www.ifg.edu.br/attachments/article/471/Foto_Aerea3_reduzida.jpg"
       },
-      "tags": ["TECNOLOGIA", "CARREIRA"],
-      "data": "20 NOV",
-      "dia_semana": "SEX.",
+      "tags": [
+        "CARREIRA",
+        "DIREITO",
+        "SERVIÇO PÚBLICO"
+      ],
+      "data": "28 SET",
+      "dia_semana": "SEG.",
       "horario": "19:00",
-      "local": "Auditório Central (Presencial)",
-      "descricao": "Panorama prático sobre as habilidades que diferenciam engenheiros juniores e plenos em grandes corporações de tecnologia.",
+      "local": "Auditório Demartim Bezerra (IFG Goiânia)",
+      "descricao": "01º Encontro - 2026. Reflexões sobre a interseção entre o direito e a tecnologia, detalhando as escolhas e caminhos para a carreira no serviço público.",
       "links": {
-        "inscricao": "https://forms.gle/exemplo-ana-silva-2026",
+        "inscricao": "",
         "material": ""
       }
     },
     {
       "id": "02",
-      "titulo": "ARQUITETURAS CLOUD & MICROSSERVIÇOS RESILIENTES",
+      "titulo": "PROJETOS DE DADOS E INOVAÇÃO NA SAÚDE PÚBLICA",
       "palestrante": {
-        "nome": "MARCOS OLIVEIRA",
-        "cargo": "Principal Cloud Architect @ AWS Community Hero",
-        "bio": "Mais de 14 anos desenhando plataformas cloud nativas para fintechs e telecomunicações na América Latina.",
-        "foto_url": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=700&q=80"
+        "nome": "CARLOS GONÇALVES TIBIRIÇÁ",
+        "cargo": "Analista na Gerência de Inovação",
+        "bio": "Mestre em Ciência da Computação e Analista na Gerência de Inovação. Especialista em BI, Data Science, Inteligência Artificial e Governança de Dados, com foco em interoperabilidade na saúde.",
+        "foto_url": "/src/assets/images/speaker_carlos_tibirica.jpg"
       },
-      "tags": ["CLOUD", "DEVOPS", "ARQUITETURA"],
-      "data": "27 NOV",
-      "dia_semana": "SEX.",
-      "horario": "19:30",
-      "local": "Auditório Central + Streaming",
-      "descricao": "Como desenhar sistemas distribuídos tolerantes a falhas no mundo real com observabilidade e baixo custo.",
+      "tags": [
+        "DADOS",
+        "INOVAÇÃO",
+        "SAÚDE PÚBLICA"
+      ],
+      "data": "05 OUT",
+      "dia_semana": "SEG.",
+      "horario": "19:00",
+      "local": "Auditório Demartim Bezerra (IFG Goiânia)",
+      "descricao": "02º Encontro - 2026. Abordagem sobre o desenvolvimento e os impactos dos projetos de dados, BI e Inteligência Artificial na interoperabilidade e inovação da saúde pública.",
       "links": {
-        "inscricao": "https://forms.gle/exemplo-marcos-cloud-2026",
-        "material": "https://github.com/ifg-bsi/arquitetura-cloud-resiliente-2026"
+        "inscricao": "",
+        "material": ""
       }
     },
     {
       "id": "03",
-      "titulo": "IA GENERATIVA & ENGENHARIA DE PRODUTOS REAIS",
+      "titulo": "QUALIDADE DE SOFTWARE NA PRÁTICA: CARREIRA, TESTES E OS DESAFIOS DE QA",
       "palestrante": {
-        "nome": "DRA. BEATRIZ MENDES",
-        "cargo": "Head of Artificial Intelligence @ NeuralSphere Lab",
-        "bio": "Doutora em Ciência da Computação, pesquisadora e consultora de IA para órgãos públicos.",
-        "foto_url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=700&q=80"
+        "nome": "GABRIEL LAUREANO",
+        "cargo": "QA Engineer",
+        "bio": "Mais de 5 anos atuando como QA Engineer, com experiência em estratégia de testes, automação e qualidade de software. Bacharel em Ciência da Computação pela PUC Goiás, com certificações ISTQB (CTFL, CT-TAS e CTAL-TM).",
+        "foto_url": "/src/assets/images/speaker_gabriel_laureano.jpg"
       },
-      "tags": ["IA & ML", "INOVAÇÃO", "PESQUISA"],
-      "data": "04 DEZ",
-      "dia_semana": "SEX.",
+      "tags": [
+        "QA",
+        "TESTES",
+        "QUALIDADE"
+      ],
+      "data": "19 OUT",
+      "dia_semana": "SEG.",
       "horario": "19:00",
-      "local": "Auditório Demartin Bizerra",
-      "descricao": "Saindo do hype: implementação real de pipelines com LLMs, agentes autônomos e fine-tuning com segurança.",
+      "local": "Auditório Demartim Bezerra (IFG Goiânia)",
+      "descricao": "03º Encontro - 2026. Um mergulho prático sobre a carreira de QA, explorando estratégias de testes, automação e os reais desafios enfrentados na garantia de qualidade de software no mercado.",
       "links": {
-        "inscricao": "https://forms.gle/exemplo-beatriz-ia-2026",
+        "inscricao": "",
+        "material": ""
+      }
+    },
+    {
+      "id": "04",
+      "titulo": "ALÉM DO CÓDIGO: OS PILARES DA ENGENHARIA DE SOFTWARE, CULTURA DEVOPS E O FUTURO DA PROFISSÃO",
+      "palestrante": {
+        "nome": "JOSÉ CLÁUDIO DA SILVA NETO",
+        "cargo": "Tech Lead em DevOps e Engenheiro de Software Sênior",
+        "bio": "Tech Lead em DevOps e Engenheiro de Software Sênior. Atua em cultura DevOps, AWS, Observabilidade e CI/CD em sistemas financeiros. Tecnólogo em ADS pela UEG, com 10 anos de experiência em desenvolvimento.",
+        "foto_url": "https://marvel-b1-cdn.bc0a.com/f00000000236551/news.cdn.dm.dynatrace.com/wp-content/uploads/2021/07/13429_ILL_DevOpsLoop.png"
+      },
+      "tags": [
+        "DEVOPS",
+        "ENGENHARIA",
+        "CLOUD"
+      ],
+      "data": "09 NOV",
+      "dia_semana": "SEG.",
+      "horario": "19:00",
+      "local": "Auditório Demartim Bezerra (IFG Goiânia)",
+      "descricao": "04º Encontro - 2026. Discussão aprofundada sobre os fundamentos que vão além da programação, incluindo a adoção da cultura DevOps, pipelines de CI/CD e as perspectivas para o futuro da engenharia de software.",
+      "links": {
+        "inscricao": "https://sugep.ifg.edu.br/eventos/#/publico/eventos/44f838e1-9e59-4471-993f-37cac30ef03f/inscricao",
         "material": ""
       }
     }
