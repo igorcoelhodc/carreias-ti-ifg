@@ -14,9 +14,9 @@
     <div class="top-strip">
       <div>
         <span class="top-strip-tag"></span>
-        <span id="header-instituicao">IFG CÂMPUS GOIÂNIA - SISTEMAS DE INFORMAÇÃO</span>
+        <span id="header-instituicao">IFG CÂMPUS GOIÂNIA</span>
       </div>
-      <div id="header-periodo">SEMESTRE 2026/1</div>
+      <div id="header-periodo">SISTEMAS DE INFORMAÇAO</div>
     </div>
     <div class="navbar-inner">
       <div class="brand-lockup">
@@ -45,26 +45,28 @@
   </section>
 
   <div class="controls-wrapper">
-    <input 
-      type="text" 
-      id="search-input" 
-      class="search-input" 
-      placeholder="BUSCAR PALESTRANTE OU TÍTULO..."
-      aria-label="Buscar palestras"
-    />
+    <div style="display: flex; gap: 8px; width: 100%; max-width: 480px;">
+      <input 
+        type="text" 
+        id="search-input" 
+        class="search-input" 
+        placeholder="BUSCAR PALESTRANTE OU TÍTULO..."
+        aria-label="Buscar palestras"
+        style="flex: 1; max-width: none;"
+      />
+      <button id="sort-btn" class="search-input" style="width: auto; cursor: pointer; background: #000000; color: #FFFFFF; font-size: 10px;">
+        ↑ RECENTES
+      </button>
+    </div>
+    
     <div class="tags-container" id="tags-container"></div>
   </div>
 
   <main id="grid-eventos"></main>
 
   <footer>
-    <div class="footer-strip">
-      <span>INSTITUTO FEDERAL DE GOIÁS</span>
-      <span>BACHARELADO EM SISTEMAS DE INFORMAÇÃO</span>
-    </div>
     <div class="footer-inner">
       <div>© <span id="current-year"></span> IFG - Gestão de Carreira em TI</div>
-      <div>Design Neo-Brutalismo</div>
     </div>
   </footer>
 
